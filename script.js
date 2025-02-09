@@ -11,7 +11,7 @@ let updateNum = 1;
 
 // set the text-content to the generated quotes
 const renderQuotes = function (data) {
-  quote.textContent = `${data.text}`;
+  quote.textContent = `"${data.text}"`;
 };
 
 // Adding functionality to the btn for random quote and number
