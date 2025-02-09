@@ -25,13 +25,14 @@ btnRoll.addEventListener("click", () => {
       const res = await fetch(
         "https://programming-quotes-api.azurewebsites.net/api/quotes/random"
       );
-      if (!res.ok) throw new Error("Failed to get Quotes");
+      // if (!res.ok) throw new Error("Failed to get Quotes...😔,");
       const data = await res.json();
       renderQuotes(data);
     } catch (err) {
-      console.error(err.message);
+      console.error(
+        (quote.textContent = `${err.message}...😔, Check connection and try again!`)
+      );
     }
   };
-
-  console.log((quote.textContent = randomQuoteGen()));
+  randomQuoteGen();
 });
