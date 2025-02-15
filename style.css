@@ -81,7 +81,7 @@ h1 {
   }
 }
 
-/* .attribution {
+.attribution {
   color: var(--white);
   margin-top: 2rem;
   font-size: 11px;
@@ -90,4 +90,4 @@ h1 {
     text-decoration: none;
     color: var(--a-blue);
   }
-} */
+}
