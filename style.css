@@ -55,7 +55,8 @@ body {
 
 h1 {
   color: var(--Light-Cyan);
-  text-align: justify;
+  /* text-align: justify; */
+  text-wrap: wrap;
   font-size: 28px;
 }
 
@@ -84,7 +85,7 @@ h1 {
 .attribution {
   color: var(--white);
   margin-top: 2rem;
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
   a {
     text-decoration: none;
